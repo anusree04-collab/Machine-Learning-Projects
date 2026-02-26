@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Clustering App</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+<h2>Customer Clustering App</h2>
+
+<select id="algo">
+    <option value="kmeans">K-Means</option>
+    <option value="hierarchical">Hierarchical</option>
+    <option value="dbscan">DBSCAN</option>
+</select>
+
+<button onclick="runClustering()">Run Clustering</button>
+
+<p id="status"></p>
+
+<div id="plot" style="width:600px;height:500px;"></div>
+
+<script>
+function runClustering() {
+    const algo = document.getElementById("algo").value;
+
+    fetch("/cluster", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({algorithm: algo})
+    })
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("status").innerText =
+            "Received " + data.x.length + " data points";
+
+        const trace = {
+            x: data.x,
+            y: data.y,
+            mode: "markers",
+            marker: {
+                color: data.labels,
+                size: 8
+            },
+            type: "scatter"
+        };
+
+        Plotly.newPlot("plot", [trace]);
+    });
+}
+</script>
+
+</body>
+</html>
