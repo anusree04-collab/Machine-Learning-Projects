@@ -18,9 +18,19 @@ Technologies Used :
  -
  Python Flask HTML & JavaScript Pandas, NumPy Scikit-learn Matplotlib / Plotly
 
+ Project Architecture
+ --
+Data preprocessing ,
+Feature scaling ,
+Model training (selected clustering algorithm) ,
+PCA transformation ,
+Cluster visualization in web interface ,
+
  How to Run the Project
 --
-Install required libraries: pip install flask pandas numpy scikit-learn matplotlib Run the application : python app.py open the browser and go to the : http://127.0.0.1:5000
+Install required libraries: pip install flask pandas numpy scikit-learn matplotlib ,
+Run the application : python app.py ,
+open the browser and go to the : http://127.0.0.1:5000
 
 Select clustering algorithm and click Run Clustering.
 --
