@@ -28,16 +28,15 @@ Cluster visualization in web interface ,
 
  How to Run the Project
 --
-Install required libraries: pip install flask pandas numpy scikit-learn matplotlib
--
-Run the application : python app.py ,
+Install required libraries: pip install flask pandas numpy scikit-learn matplotlib,
+Run the application : python app.py,
 open the browser and go to the : http://127.0.0.1:5000
 
 Select clustering algorithm and click Run Clustering.
 --
 Output : The application displays customer clusters in graphical form where different colors represent different customer groups.
 
- Conclusion
+Conclusion
  -
  This project demonstrates the use of unsupervised machine learning techniques for customer segmentation and visualization using a web interface.
 It can be useful for business decision making and marketing strategy.
