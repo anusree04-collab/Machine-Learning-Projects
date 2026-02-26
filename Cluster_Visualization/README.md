@@ -12,19 +12,19 @@ It contains information such as: Customer ID Age Annual Income Spending Score
 
 Algorithms Used :
 -
-K-Means Clustering,DBSCAN Hierarchical Clustering,PCA (for dimensionality reduction and visualization)
+K-Means Clustering  DBSCAN Hierarchical Clustering  PCA (for dimensionality reduction and visualization)
 
 Technologies Used :
  -
- Python Flask HTML & JavaScript Pandas, NumPy Scikit-learn Matplotlib / Plotly
+ Python Flask HTML & JavaScript Pandas  NumPy  Scikit-learn   Matplotlib   / Plotly
 
  Project Architecture
  --
-Data preprocessing ,
-Feature scaling ,
-Model training (selected clustering algorithm) ,
-PCA transformation ,
-Cluster visualization in web interface ,
+Data preprocessing  
+Feature scaling  
+Model training (selected clustering algorithm)  
+PCA transformation  
+Cluster visualization in web interface  
 
  How to Run the Project
 --
@@ -34,7 +34,7 @@ open the browser and go to the : http://127.0.0.1:5000
 
 Select clustering algorithm and click Run Clustering.
 --
-Output : The application displays customer clusters in graphical form where different colors represent different customer groups.
+Output :   The application displays customer clusters in graphical form where different colors represent different customer groups.
 
 Conclusion
  -
