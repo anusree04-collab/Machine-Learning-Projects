@@ -28,13 +28,14 @@ Cluster visualization in web interface ,
 
  How to Run the Project
 --
-Install required libraries: pip install flask pandas numpy scikit-learn matplotlib ,
+Install required libraries: pip install flask pandas numpy scikit-learn matplotlib
+-
 Run the application : python app.py ,
 open the browser and go to the : http://127.0.0.1:5000
 
 Select clustering algorithm and click Run Clustering.
 --
-Output The application displays customer clusters in graphical form where different colors represent different customer groups.
+Output : The application displays customer clusters in graphical form where different colors represent different customer groups.
 
  Conclusion
  -
