@@ -24,12 +24,12 @@ Build a classification model to predict whether a customer will churn based on c
 
 Technologies Used
 --
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
+Python ,
+Pandas ,
+NumPy ,
+Matplotlib ,
+Seaborn ,
+Scikit-learn ,
 
 Project Workflow
 --
