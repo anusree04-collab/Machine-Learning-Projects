@@ -10,9 +10,13 @@ The application is built using Python and Flask framework and shows clustering r
 Mall Customers Dataset is used in this project.
 It contains information such as: Customer ID Age Annual Income Spending Score
 
-Algorithms Used : K-Means Clustering DBSCAN Hierarchical Clustering PCA (for dimensionality reduction and visualization)
+Algorithms Used :
+-
+K-Means Clustering DBSCAN Hierarchical Clustering PCA (for dimensionality reduction and visualization)
 
- Technologies Used : Python Flask HTML & JavaScript Pandas, NumPy Scikit-learn Matplotlib / Plotly
+Technologies Used :
+ -
+ Python Flask HTML & JavaScript Pandas, NumPy Scikit-learn Matplotlib / Plotly
 
  How to Run the Project
 --
