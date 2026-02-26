@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+</head>
+<body>
+
+<h2>Customer Churn Prediction</h2>
+
+<form action="/predict" method="post">
+
+    Day Minutes:
+    <input type="number" step="any" name="Day_Mins" required>
+    <br><br>
+
+    Evening Minutes:
+    <input type="number" step="any" name="Eve_Mins" required>
+    <br><br>
+
+    Night Minutes:
+    <input type="number" step="any" name="Night_Mins" required>
+    <br><br>
+
+    International Minutes:
+    <input type="number" step="any" name="Intl_Mins" required>
+    <br><br>
+
+    Customer Service Calls:
+    <input type="number" name="CustServ_Calls" required>
+    <br><br>
+
+    International Plan:
+    <select name="Intl_Plan" required>
+        <option value="">Select</option>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+    <br><br>
+
+    Voicemail Plan:
+    <select name="Vmail_Plan" required>
+        <option value="">Select</option>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </select>
+    <br><br>
+
+    <input type="submit" value="Predict">
+
+</form>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
