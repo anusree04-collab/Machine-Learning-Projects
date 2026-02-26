@@ -12,7 +12,7 @@ It contains information such as: Customer ID Age Annual Income Spending Score
 
 Algorithms Used :
 -
-K-Means Clustering DBSCAN Hierarchical Clustering PCA (for dimensionality reduction and visualization)
+K-Means Clustering,DBSCAN Hierarchical Clustering,PCA (for dimensionality reduction and visualization)
 
 Technologies Used :
  -
